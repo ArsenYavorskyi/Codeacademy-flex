@@ -159,6 +159,11 @@ a:hover {
     color: palegreen;
 }
 
+a:visited {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
 @media (max-width: 540px) {
     .menu {
         display: none;
