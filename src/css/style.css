@@ -44,8 +44,12 @@
     font-size: 2em;
  }
 
- h4 {
+ h4, h3 {
     font-weight: bold;
+ }
+
+ h3 {
+    font-size: 2rem;
  }
 
 header {
@@ -140,5 +144,49 @@ header {
 
  .gallery__item {
     flex-shrink: 0;
+ }
+
+ .main__locations {
+    height: 570px;
+    width: 1200px;
+    background-image: url(/src/img/img-locations-background.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+ }
+
+ .main__locations h2 {
+    padding-bottom: 15px;
+ }
+
+ .locations__container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+ }
+
+ .location {
+    flex: 1 1 300px;
+    background-color: black;
+    opacity: 1;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 15px;
+ }
+
+ .location p {
+    margin-top: 40px;
  }
  
